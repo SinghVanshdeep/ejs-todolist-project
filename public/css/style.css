@@ -45,10 +45,13 @@ body > nav + .body-container{
 	justify-content: center;
 }
 
+h1{
+	align-self: center;
+}
+
 .main-container{
 	height: 100%;
 	width: 30rem;
-	display: flex;
 }
 
 .list-container{
@@ -85,8 +88,9 @@ body > nav + .body-container{
 	border-radius: 50%;
 	font-size: 1.5rem;
 	font-weight: bold; 
-	text-align: center;
 	align-self: center;
+	display: flex;
+	justify-content: center;
 }
 
 .list-container2{
@@ -108,6 +112,7 @@ body > nav + .body-container{
 #check-box{
 	width: 1rem;
 	justify-self: center;
+	align-self: center;
 }
 
 input[type=checkbox]:checked + p {
